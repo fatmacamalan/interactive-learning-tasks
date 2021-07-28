@@ -1,5 +1,5 @@
-resource "aws_route53_record" "blog" {
-  zone_id = aws_route53_zone.main.zone_id
-  name    = "blog.fatmacamalan.net"
-  record = 127.0.0.1
+resource "aws_route53_record" "WWW" {
+  zone_id = "Z00129912ZGS50OHITZ20"
+  name    = "wordpress.fatmacamalan.net"
+  records = ["127.0.0.1"]
 }
