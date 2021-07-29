@@ -1,4 +1,4 @@
-resource "aws_route53_record" "www" {
+resource "aws_route53_record" "wordpress" {
   zone_id = "Z00129912ZGS50OHITZ20"
   name    = "wordpress.fatmacamalan.net"
   type    = "A"
